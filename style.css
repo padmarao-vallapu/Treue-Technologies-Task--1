@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.carpusal-container {
+    height: 100vh;
+}
+
+.ecommerce-website-logo-img {
+    height: 60px;
+    width: 150px;
+}
+
+#navitem1 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+}
+
+#navitem2 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+}
+
+#navitem3 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+}
+
+#navitem4 {
+    font-family: Roboto;
+    font-size: 20px;
+    color: black;
+}
+
+#navitem5 {
+    font-family: Roboto;
+    font-size: 22px;
+    color: black;
+}
+
+div ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+div ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #0254b3;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+div ul li a:hover::after {
+    width: 100%;
+}
+
+.card-discription {
+    font-family: Roboto;
+    font-size: 15px;
+    color: #7b8794;
+}
+
+.card-title {
+    font-family: Roboto;
+    font-size: 23px;
+    color: #1f2933;
+}
+
+.card-image {
+    height: 130px;
+    width: 130px;
+    padding: 5px;
+}
+
+.service-card {
+    background-color: #ffffff;
+    width: 100%;
+    height: 40vh;
+    margin-top: 5px;
+
+}
+
+.our-service-discription {
+    font-family: Roboto;
+    font-size: 23px;
+    color: #616c7c;
+}
+
+.main-heading {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    color: #183b56;
+}
+
+.ecommerce-website-service-section {
+    background-color: #ffffff;
+    background-size: cover;
+
+}
+
+.product-card2 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
+    background-size: cover;
+}
+
+.modal-body {
+    font-family: Roboto;
+    font-size: 15px;
+    color: #323f4b;
+}
+
+.modal-title {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #183b56;
+}
+
+.view-button {
+    border-style: solid;
+    border-radius: 25px;
+    color: #ff9f00;
+    padding-bottom: 15px;
+    width: 150px;
+}
+
+.card-discription {
+    font-family: Roboto;
+    font-size: 20px;
+
+
+    color: #ffffff;
+}
+
+.card-title {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+.product-card1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+    background-size: cover;
+}
+
+.product-card {
+    height: 50vh;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.main-heading {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    color: #183b56;
+
+}
+
+.ecommerce-website-products-section {
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.read {
+    font-family: Roboto;
+    font-size: 15px;
+    padding-top: 5px;
+    color: #ff9f00;
+}
+
+.card-description {
+    font-family: Roboto;
+    font-size: 20px;
+    padding-top: 5px;
+    color: #959ead;
+}
+
+.card-title {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    color: #183b56;
+}
+
+.card-sub-heading {
+    font-family: Roboto;
+    font-size: 15px;
+    padding-top: 5px;
+    color: #959ead;
+}
+
+.trending-bolgs-card {
+    background-color: #ffffff;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-heading {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 15px;
+    color: #183b56;
+}
+
+.ecommerce-trandi-blogs-section {
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.festival-offers-card {
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.details-link {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #ff9f00;
+}
+
+.name {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #1f2933;
+
+}
+
+.gadgets-image {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 8px;
+}
+
+.card-title {
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 600;
+    color: #183b56;
+}
+
+.main-heading {
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 600;
+    color: #183b56;
+}
+
+.deals-card {
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.ecomerce-website-explore-section {
+    background-color: #f5f7fa;
+    background-size: cover;
+    height: 100vh;
+}
+
+.ecommerce-website-contact-us-section {
+    background-color: #f5f7fa;
+    background-size: cover;
+}
+
+.button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff9f00;
+    color: #ff9f00;
+}
+
+.maain-heading {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 600;
+    color: #183b56;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.hr {
+    width: 100%;
+    color: #5a7184;
+}
+
+.main-heading {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #5a7184;
+    font-weight: bold;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 15px;
+    color: #5a7184;
+    padding: 2px;
+}
+
+.adress {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #959ead;
+    text-align: center;
+    padding: 10px;
+}
+
+.icon-container {
+    background-color: #202b36;
+    color: #959ead;
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+    padding-left: 23px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border-radius: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.logo-image {
+    height: 10vh;
+    width: 25vw;
+}
+
+.ecommerce-website-footer-section {
+    background-color: #0d2436;
+    background-size: cover;
+}
